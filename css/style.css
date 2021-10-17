@@ -192,7 +192,6 @@ a {
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
-  transition: 0.2s;
 }
 
 .btn--primary {
@@ -226,6 +225,7 @@ a {
   background-color: white;
   border: 2px solid var(--color-headings);
   color: var(--color-headings);
+  transition: 0.2s;
 }
 
 .btn--outline:hover {
@@ -236,10 +236,4 @@ a {
 .btn--block {
   display: block;
   width: 100%;
-}
-
-@media screen and (min-width: 1024px) {
-  .btn {
-    font-size: 1.5rem;
-  }
 }
