@@ -805,3 +805,29 @@ a {
     order: 2;
   }
 }
+
+/* Showcase Block */
+
+.block-showcase__container {
+  gap: 8rem 2rem;
+  margin-bottom: 10rem;
+}
+
+.block-showcase__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .block-showcase .grid {
+    grid-template-columns: 50% 50%;
+  }
+
+  .block-showcase__image {
+    justify-self: end;
+  }
+
+  .block-showcase__image > img {
+    width: auto;
+    max-width: 700px;
+  }
+}
